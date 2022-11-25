@@ -35,7 +35,7 @@ Examples:
 
 function extractKey(arr, key) {
     return arr.map((obj) => {
-        return obj;
+        return obj[key];
     });
 }
 
